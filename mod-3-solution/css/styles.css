@@ -60,3 +60,9 @@ body{
 @media (max-width: 767px){
 
 }
+#line{
+	width: 100%;
+	color: black;
+	margin-top: 0;
+	margin-bottom: 0;
+}
