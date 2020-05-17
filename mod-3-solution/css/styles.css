@@ -15,8 +15,13 @@ body{
 	width: 100%;
 	margin: 0px;
 	border: 0px;
-}
+	background-color: black;
 
+}
+#collapsable-nav #nav-list .nav-item a{
+	color: red;
+	font-family: 'Roboto Mono', monospace;
+}
 
 
 .navbar-brand h1{
@@ -26,9 +31,6 @@ body{
 	text-transform: uppercase;
 	font-weight: bold;
 	line-height: .75;
-}
-.navbar-brand a:hover{
-	background-color: gold;
 }
 .navbar-brand p span {
 	font-family: 'Shadows Into Light', cursive;
@@ -57,21 +59,6 @@ body{
 .navbar-header button.navbar-toggle{
 	clear: both;
 	margin-top: -30px; 
-}
-@media (min-width: 1200px){
-
-	}
-
-}
-@media (min-width: 992px) and (max-width: 1199px){
-	#logo-img{
-		background: url('../images/logo1.png') no-repeat;
-	}
-
-}
-@media (max-width: 767px){
-
-
 }
 div h1{
 	font-family: 'Permanent Marker', cursive;
