@@ -7,8 +7,18 @@ body{
 	border-radius: 0;
 	border: 0;
 	padding: 20px;
+	margin-bottom: 0px;
 
 }
+#collapsable-nav{
+	box-sizing: content-box;
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+}
+
+
+
 .navbar-brand h1{
 	color: black;
 	font-size: 1.5em;
@@ -50,6 +60,8 @@ body{
 }
 @media (min-width: 1200px){
 
+	}
+
 }
 @media (min-width: 992px) and (max-width: 1199px){
 	#logo-img{
@@ -59,10 +71,29 @@ body{
 }
 @media (max-width: 767px){
 
+
+}
+div h1{
+	font-family: 'Permanent Marker', cursive;
 }
 #line{
 	width: 100%;
-	color: black;
+	color: solid black;
 	margin-top: 0;
 	margin-bottom: 0;
+}
+.container{
+	width: 90%;
+}
+
+.container .row #menu{
+	background-color: grey;
+	margin-top: 20px;
+	font-size: 32px;
+	font-family: 'Dancing Script', cursive;
+}
+.container .row #menu h2{
+	font-size: 40px;
+	color: #800000;
+
 }
