@@ -28,6 +28,7 @@ body{
 #nav-list{
 	margin-top: 10px;
 	background-color: white;
+	width: 100%;
 }
 #nav-list a{
 	color: blue;
