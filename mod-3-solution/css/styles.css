@@ -1,21 +1,61 @@
 body{
 	background-color: pink;
 }
-#header-nav {
-  background-color: #f6b319;
-  border-radius: 0;
-  border: 0;
-}
-.navbar-brand {
-  padding-top: 25px;
-  padding-bottom: 25px;
+#header-nav{
+	
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	padding: 20px;
+
 }
 .navbar-brand h1{
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 2px;
-  line-height: .75;
+	color: black;
+	font-size: 1.5em;
+	font-family: 'Permanent Marker', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: .75;
+}
+.navbar-brand a:hover{
+	background-color: gold;
+}
+.navbar-brand p span {
+	font-family: 'Shadows Into Light', cursive;
+	color: green;
+	vertical-align: middle;
+}
+#nav-list{
+	margin-top: 10px;
+	background-color: white;
+}
+#nav-list a{
+	color: blue;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: pink;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px; 
+}
+@media (min-width: 1200px){
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+		background: url('../images/logo1.png') no-repeat;
+	}
+
+}
+@media (max-width: 767px){
+
 }
